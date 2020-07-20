@@ -1,4 +1,4 @@
 access:
   limit:
     minutes: 1
-    countLimit: 1
+    countLimit: 4
