@@ -1,0 +1,13 @@
+spring:
+  mail:
+    host: smtp.qq.com # 服务端
+    username: 1534450577@qq.com # 发件人
+    password: zcyouonzivmsbace #wttrpqtppwrqghbf # 授权码,qq邮箱激活smtp时获得
+    properties:
+      mail:
+         smtp:
+            auth: true
+            starttls:
+               enable: true
+               required: true
+    default-encoding: UTF-8
