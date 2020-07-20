@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/lagou?characterEncoding=utf8&useSSL=false&serverTimezone=UTC
+    username: root
+    password: 12345678
+  jpa:
+    database: mysql
+    show-sql: true
+    hibernate:
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl # 避免将驼峰命名转换成下划线
+
+
+
+
+
+
